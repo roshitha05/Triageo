@@ -2,26 +2,23 @@ import os
 
 import streamlit as st
 from dotenv import load_dotenv
-from openai import OpenAI
-from prompts  import PROMPT_V1
+from google import genai
+from prompts  import PROMPT_V1, PROMPT_V2, PROMPT_V3
 
 # load environment
 load_dotenv()
 # connect to tokenreoky
-client = OpenAI(
-    api_key=os.getenv("TOKENREPLY_API_KEY"),
-    base_url="https://api.tokenreply.com/v1"
+client = genai.Client(
+    api_key=os.getenv("GEMINI_API_KEY")
 )
 
 def analyse_ticket(ticket):
-    prompt = PROMPT_V1.format(ticket=ticket)
-    response = client.chat.completions.create(
-        model="grok-4.20-fast",
-        messages=[
-            {"role": "user", "content": "prompt"}
-        ]
+    prompt = PROMPT_V3.format(ticket=ticket)
+    response = client.interactions.create(
+        model="gemini-3.5-flash-lite",
+        input=prompt
     )
-    return response.choice[0].message.content
+    return response.output_text
 
 st.title("Triageo")
 st.write("Turn support request into actionable insights")

@@ -1,0 +1,128 @@
+ticket,expected_category,expected_priority,V1_output,V2_output,V3_output
+Cannot log in after changing my password,Account Access,Medium,"**Category:** Access Management / Authentication
+**Priority:** Medium (Affects an individual user's ability to work, but does not impact business-wide operations)
+**Summary:** The user is unable to log into their account following a recent password change.
+**Suggested Action:** 
+1. Verify the user's identity.
+2. Check if the account is locked out due to multiple failed attempts.
+3. Ensure the user is using the correct username and entering the newly changed password.
+4. If necessary, temporarily reset the password via the admin console and instruct the user to clear browser cache/cookies or restart their client application.","Category: Access Management
+Priority: Medium
+Summary: The user is unable to log in following a recent password change.
+Suggested Action: Verify the user's account status and ensure they are using the newly updated credentials.","Category: Account Access
+Priority: Medium
+Summary: The user is unable to log in following a password change.
+Suggested Action: Verify the account status and assist with password reset or authentication troubleshooting."
+Company portal is down for everyone,Service Availability,High,"**Category:** Infrastructure / Network / Web Application
+**Priority:** P1 - Critical (High Impact, High Urgency)
+**Summary:** The company portal is completely inaccessible for all users.
+**Suggested Action:** 
+1. Immediately check the status of the web server, database, and hosting environment/cloud provider hosting the company portal.
+2. Verify network connectivity, DNS settings, and SSL certificate validity.
+3. Check system logs for recent errors, crashes, or traffic spikes.
+4. Notify the IT response team/DevOps and post an internal status update to inform staff that the issue is being investigated.","Category: Network / Infrastructure
+Priority: Critical
+Summary: The company portal is currently inaccessible for all users.
+Suggested Action: Verify server status and check network connectivity to the portal infrastructure.","Category: Service Availability
+Priority: High
+Summary: The company portal is currently unavailable for all users.
+Suggested Action: Verify the outage and escalate the issue to the infrastructure team for investigation."
+How do I change my profile picture?,General Support,Low,"**Category:** Account Management / User Profile
+**Priority:** Low
+**Summary:** The user is asking for instructions on how to change their profile picture.
+**Suggested Action:** Provide the user with a step-by-step guide or a knowledge base link explaining how to navigate to their account settings and upload a new profile picture.","Category: Account Management
+Priority: Low
+Summary: The user is asking for instructions on how to change their profile picture.
+Suggested Action: Provide the user with the steps required to update their profile picture.","Category: General Support
+Priority: Low
+Summary: The user is asking how to change their profile picture.
+Suggested Action: Provide the instructions for updating the profile picture."
+My laptop cannot connect to Wi-Fi,Network,Medium,"**Category:** Network / Connectivity
+**Priority:** Medium
+**Summary:** The user's laptop is unable to connect to the Wi-Fi network.
+**Suggested Action:** 
+1. Verify if other devices can connect to the same Wi-Fi network to rule out router/ISP issues.
+2. Check if the laptop's Wi-Fi adapter is enabled and updated.
+3. Restart the laptop and the Wi-Fi router.
+4. ""Forget"" the network and attempt to reconnect by re-entering the correct Wi-Fi password.
+5. Run the built-in Windows/macOS network troubleshooter.","Category: Network/Connectivity
+Priority: Medium
+Summary: The user is unable to connect their laptop to the Wi-Fi network.
+Suggested Action: Verify the Wi-Fi is enabled on the laptop and attempt to reconnect to the network.","Category: Network
+Priority: Medium
+Summary: The user is unable to connect their laptop to the Wi-Fi network.
+Suggested Action: Troubleshoot the Wi-Fi connection and verify network credentials."
+I received a suspicious login alert,Security,High,"Based on the limited information provided in the support ticket, here is the analysis:
+
+**Category:** Security / Account Access
+**Priority:** High (Potential unauthorized access/compromise)
+**Summary:** The user received a suspicious login alert regarding their account.
+**Suggested Action:** 
+1. Immediately contact the user to verify if they performed the login attempt.
+2. If unauthorized, force a global password reset and terminate all active sessions.
+3. Review account activity logs for any unauthorized changes or data access.
+4. Verify that Multi-Factor Authentication (MFA) is enabled on the user's account.","Category: Security
+Priority: High
+Summary: The user received a suspicious login alert.
+Suggested Action: Verify the account activity logs immediately and have the user change their password.","Category: Security
+Priority: High
+Summary: The user received a suspicious login alert.
+Suggested Action: Review the user account activity and secure the account immediately."
+Printer is not working,Hardware,Medium,"**Category:** Hardware / Peripheral
+**Priority:** Low
+**Summary:** The user reported that their printer is not working, but provided no specific error messages or details.
+**Suggested Action:** Contact the user to gather more information (e.g., printer model, exact location, error messages displayed, whether it's network or USB connected) and check basic troubleshooting steps such as power, connection, and print queue status.","Category: Hardware
+Priority: Medium
+Summary: A user reports that their printer is currently not working.
+Suggested Action: Verify the physical connections and power status of the printer.","Category: Hardware
+Priority: Low
+Summary: The printer is currently not working.
+Suggested Action: Check the physical connections and power status of the printer."
+Email is not syncing on my phone,Email,Medium,"**Category:** Email / Mobile Device Support
+**Priority:** Medium
+**Summary:** The user is experiencing issues with their email failing to sync on their mobile device.
+**Suggested Action:** 
+1. Verify if the user recently changed their password.
+2. Check if the email service/server is experiencing an outage.
+3. Guide the user to check their internet connection (Wi-Fi vs. Cellular).
+4. Recommend removing and re-adding the email account on the mobile device, or restarting the email app/phone.","Category: Email
+Priority: Medium
+Summary: The user is unable to sync their email on their mobile phone.
+Suggested Action: Check the network connection on the phone and verify the account credentials.","Category: Email/Mobile Support
+Priority: Low
+Summary: The user is unable to sync their email on their phone.
+Suggested Action: Verify the mobile email settings and account credentials."
+How do I install the VPN client?,General Support,Low,"**Category:** Network / Remote Access
+**Priority:** Low
+**Summary:** User is asking for instructions on how to install the VPN client.
+**Suggested Action:** Send the user the standard knowledge base (KB) article or step-by-step documentation for downloading and installing the corporate VPN client. Include a link to the download portal and offer further assistance if they encounter login or installation errors.","Category: Access Management
+Priority: Low
+Summary: The user is requesting instructions on how to install the VPN client.
+Suggested Action: Provide the user with the standard installation guide and download link for the VPN client.","Category: General Support
+Priority: Low
+Summary: The user is asking for instructions on how to install the VPN client.
+Suggested Action: Provide the user with the steps required to install the VPN client."
+Several users cannot access shared files,Access Management,High,"Category: File Sharing / Network Access
+Priority: High
+Summary: Multiple users are currently unable to access shared files, indicating a potential issue with a file server, network share permissions, or network connectivity.
+Suggested Action: 
+1. Verify the status of the file server and ensure related services are running.
+2. Check network connectivity and recent changes to file permissions or Active Directory groups.
+3. Contact one of the affected users to gather specific error messages and the exact path of the inaccessible share.
+4. If the server is online, check disk space and event logs for underlying errors.","Category: Access / File Services
+Priority: High
+Summary: Multiple users are currently unable to access shared files.
+Suggested Action: Verify the current status of the file storage service and check the affected users' network connectivity and permissions.","Category: File Sharing
+Priority: High
+Summary: Several users are unable to access shared files.
+Suggested Action: Verify file permissions and check network connectivity to the shared storage."
+Production service is completely unavailable,Service Availability,Critical,"**Category:** Infrastructure / System Availability
+**Priority:** P1 - Critical
+**Summary:** The main production service is currently completely down and inaccessible to users.
+**Suggested Action:** Immediately escalate to the senior DevOps/SRE on-call team. Check server health, cloud infrastructure status, recent deployments, and system logs to identify the root cause. Initiate the Major Incident Response protocol and provide periodic updates to stakeholders.","Category: Infrastructure / Operations
+Priority: Critical
+Summary: The production service is completely unavailable.
+Suggested Action: Immediately verify service status, check recent changes, and escalate to the on-call incident response team.","Category: Service Availability
+Priority: Critical
+Summary: The production service is completely unavailable.
+Suggested Action: Escalate the incident immediately to initiate service restoration and investigate the outage."

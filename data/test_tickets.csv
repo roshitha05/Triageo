@@ -1,0 +1,11 @@
+ticket,expected_category,expected_priority
+"Cannot log in after changing my password",Account Access,Medium
+"Company portal is down for everyone",Service Availability,High
+"How do I change my profile picture?",General Support,Low
+"My laptop cannot connect to Wi-Fi",Network,Medium
+"I received a suspicious login alert",Security,High
+"Printer is not working",Hardware,Medium
+"Email is not syncing on my phone",Email,Medium
+"How do I install the VPN client?",General Support,Low
+"Several users cannot access shared files",Access Management,High
+"Production service is completely unavailable",Service Availability,Critical
